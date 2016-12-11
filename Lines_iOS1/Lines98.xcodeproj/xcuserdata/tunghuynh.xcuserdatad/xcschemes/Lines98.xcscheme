@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E1980C1C1B36986E007E71D4"
-               BuildableName = "Lines_iOS.app"
-               BlueprintName = "Lines_iOS"
-               ReferencedContainer = "container:Lines_iOS.xcodeproj">
+               BuildableName = "Lines98.app"
+               BlueprintName = "Lines98"
+               ReferencedContainer = "container:Lines98.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E1980C351B36986F007E71D4"
-               BuildableName = "Lines_iOSTests.xctest"
-               BlueprintName = "Lines_iOSTests"
-               ReferencedContainer = "container:Lines_iOS.xcodeproj">
+               BuildableName = "Lines98.xctest"
+               BlueprintName = "Lines98Tests"
+               ReferencedContainer = "container:Lines98.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1980C1C1B36986E007E71D4"
-            BuildableName = "Lines_iOS.app"
-            BlueprintName = "Lines_iOS"
-            ReferencedContainer = "container:Lines_iOS.xcodeproj">
+            BuildableName = "Lines98.app"
+            BlueprintName = "Lines98"
+            ReferencedContainer = "container:Lines98.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1980C1C1B36986E007E71D4"
-            BuildableName = "Lines_iOS.app"
-            BlueprintName = "Lines_iOS"
-            ReferencedContainer = "container:Lines_iOS.xcodeproj">
+            BuildableName = "Lines98.app"
+            BlueprintName = "Lines98"
+            ReferencedContainer = "container:Lines98.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1980C1C1B36986E007E71D4"
-            BuildableName = "Lines_iOS.app"
-            BlueprintName = "Lines_iOS"
-            ReferencedContainer = "container:Lines_iOS.xcodeproj">
+            BuildableName = "Lines98.app"
+            BlueprintName = "Lines98"
+            ReferencedContainer = "container:Lines98.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
