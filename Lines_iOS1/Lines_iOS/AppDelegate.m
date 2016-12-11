@@ -25,7 +25,7 @@
     MenuViewController *menu = [MenuViewController new];
     self.menuNavigationController = [[UINavigationController alloc] initWithRootViewController:menu];
     self.menuNavigationController.navigationBar.translucent = NO;
-    menu.title = @"Lines!";
+    menu.title = @"Lines98!";
     
     [self.window setRootViewController:self.menuNavigationController];
     [self.window makeKeyAndVisible];

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HelpViewController">
@@ -19,7 +19,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="249"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                     <color key="backgroundColor" red="0.33653787149999997" green="0.81086531930000005" blue="0.32073749400000001" alpha="1" colorSpace="calibratedRGB"/>
-                    <mutableString key="text">Приветствую тебя! Эта игра основана на прекрасной игре 90-ых годов Lines, в России более известной как Шарики или Линии. Смысл игры прост как пробка. Есть поле 9 на 9. В нем случайно располагаются шарики. Необходимо составить линию минимум из пяти шариков. Сложенные в линию шарики взрываются, а тебе начисляются очки! Если за ход не удается взорвать ни одной линии, на поле появляются три новых шарика и так пока не останется места на игровом поле. Игроки, набравшие больше всего очков попадают в зал славы!</mutableString>
+                    <mutableString key="text">Greetings! This game is based on the beautiful game '90s Lines, in Russia, more commonly known as beads or lines. The meaning of the game is simple like a cork. There is a field 9 9. It randomly placed balls. It is necessary to create a line of at least five balls. Folded in line balls explode and you get points! If a turn is not possible to blow a single line on the field appear three new balls, and so long as there will be no place on the playing field. Players who have earned the most points get into the Hall of Fame!</mutableString>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
@@ -39,9 +39,4 @@
             <point key="canvasLocation" x="140" y="155"/>
         </view>
     </objects>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>
