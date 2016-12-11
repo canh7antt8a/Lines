@@ -16,6 +16,10 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" id="tXr-Hk-2wp">
+                    <rect key="frame" x="0.0" y="0.0" width="1242" height="2208"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" id="RvY-4a-ROG">
                     <rect key="frame" x="106" y="15" width="110" height="110"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
@@ -23,13 +27,14 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="h0k-J4-DCy">
                     <rect key="frame" x="8" y="201" width="304" height="50"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.33653787149999997" green="0.81086531930000005" blue="0.32073749400000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.62745098040000002" green="0.1215686275" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="New Game">
+                        <color key="titleColor" red="0.84828016490000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                            <integer key="value" value="10"/>
+                            <integer key="value" value="20"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
@@ -39,13 +44,14 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jlA-nm-0bO">
                     <rect key="frame" x="8" y="259" width="304" height="50"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.33653787149999997" green="0.81086531930000005" blue="0.32073749400000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.67658059449999997" green="0.13928796139999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="Records">
+                        <color key="titleColor" red="0.84828016490000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                            <integer key="value" value="10"/>
+                            <integer key="value" value="20"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
@@ -55,49 +61,52 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Tn2-53-Uof">
                     <rect key="frame" x="8" y="317" width="304" height="50"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.33653787149999997" green="0.81086531930000005" blue="0.32073749400000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.62745098040000002" green="0.1215686275" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="Settings">
+                        <color key="titleColor" red="0.84828016490000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
-                            <integer key="value" value="10"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <action selector="openSetting:" destination="-1" eventType="touchUpInside" id="pCf-Lb-bng"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iJQ-GM-MBr">
-                    <rect key="frame" x="8" y="375" width="304" height="50"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.33653787149999997" green="0.81086531930000005" blue="0.32073749400000001" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="Rules of the game">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                            <integer key="value" value="10"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
-                    <connections>
-                        <action selector="openHelp:" destination="-1" eventType="touchUpInside" id="ynA-8H-YXs"/>
-                    </connections>
-                </button>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Rho-LB-Zzj">
                     <rect key="frame" x="8" y="143" width="304" height="50"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.33653787149999997" green="0.81086531930000005" blue="0.32073749400000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.67658059449999997" green="0.13928796139999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="Continue">
+                        <color key="titleColor" red="0.84828016490000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                            <integer key="value" value="10"/>
+                            <integer key="value" value="20"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <action selector="continueGame:" destination="-1" eventType="touchUpInside" id="Vnh-eJ-ATH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iJQ-GM-MBr">
+                    <rect key="frame" x="8" y="375" width="304" height="50"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.67658059449999997" green="0.13928796139999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Rules of the game">
+                        <color key="titleColor" red="0.84828016490000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="openHelp:" destination="-1" eventType="touchUpInside" id="ynA-8H-YXs"/>
                     </connections>
                 </button>
             </subviews>
@@ -106,6 +115,7 @@
         </view>
     </objects>
     <resources>
-        <image name="Logo" width="512" height="512"/>
+        <image name="Logo" width="300" height="300"/>
+        <image name="background" width="1242" height="2208"/>
     </resources>
 </document>
